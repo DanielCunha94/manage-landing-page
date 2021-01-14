@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam");
+* {
+  font-family: "Be Vietnam";
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.nav-container {
+  display: flex;
+  margin: 3% 10% 0 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  color: hsl(228, 39%, 23%);
+}
+.nav-links a:hover {
+  color: hsl(227, 12%, 61%);
+  border-bottom: 3px solid hsl(227, 12%, 61%);
+}
+
+.header {
+  width: 100%;
+}
+
+.svg-bkg {
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  z-index: -999;
+}
+.svg-bkg2 {
+  position: absolute;
+  top: 700px;
+  left: -550px;
+  z-index: -999;
+}
+.section {
+  margin: 7% 10% 0 10%;
+}
+.slider-section {
+  margin: 7% 0;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.flex-colunm {
+  flex-direction: column;
+}
+
+.column {
+  width: 50%;
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: flex-start;
+  margin: 5% 0 0 0;
+}
+.btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  border: hidden;
+  background-color: hsl(12, 88%, 59%);
+  color: #ffff;
+  box-shadow: 0px 3px 7px hsl(12, 88%, 59%);
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 4rem;
+  color: hsl(228, 39%, 23%);
+}
+.title2 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: hsl(228, 39%, 23%);
+}
+.title3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: hsl(228, 39%, 23%);
+}
+
+.text {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: hsl(227, 12%, 61%);
+  margin-top: 5%;
+  margin-right: 20%;
+}
+.text-small {
+  font-weight: 700;
+  color: hsl(227, 12%, 61%);
+  margin-top: 2%;
+  font-size: 1rem;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+.number-tag {
+  width: 75px;
+  height: 50px;
+  border-radius: 25px;
+  color: #ffff;
+  background-color: hsl(12, 88%, 59%);
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 40px;
+}
+
+.text-margin {
+  margin-left: 120px;
+}
+.grid-row {
+  margin-top: 5%;
+}
+
+.last-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 200px;
+  background-color: hsl(12, 88%, 59%);
+}
+
+.last-section h2 {
+  margin-left: 10%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffff;
+}
+
+.last-section button {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  border: hidden;
+  background-color: #ffff;
+  color: hsl(12, 88%, 59%);
+  cursor: pointer;
+  outline: none;
+  font-weight: 700;
+}
+
+.testimony {
+  margin-top: 150px;
+  width: 700px;
+  height: 250px;
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.testimony img {
+  position: absolute;
+  top: -73px;
+  left: calc(50% - 73px);
+}
+
+.testimony h4 {
+  padding-top: 75px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination {
+  position: static;
+  width: 100%;
+  margin-bottom: 3%;
+}
+.swiper-pagination-bullet {
+  margin: 0 5px 0 5px;
+}
+.swiper-pagination-bullet-active {
+  background-color: hsl(12, 88%, 59%);
+}
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: hsl(233, 12%, 13%);
+}
+.footer-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 100%;
+  margin: 0 10% 0 10%;
+}
+.footer-container {
+  margin-top: 25px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 25px);
+}
+.footer-icon {
+  margin: 0 5px 5px 5px;
+}
+.path:hover {
+  fill: hsl(12, 88%, 59%);
+}
+
+.footer-flex-space-between {
+  justify-content: space-between;
+}
